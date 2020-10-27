@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação WEB</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/criterios.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div id="corpo-pagina">
+        <!-- Navegação -->
+        <nav>       
+            <!-- Logo Unicamp -->
+            <div id="div-logoUnicamp">
+                <img src="./imgs/UNICAMP_logo.svg.png" id="logoUnicamp" alt="logo-unicamp">
+            </div>
+            <!-- Menu -->
+            <div id="menu">
+                <ul>
+                    <li id="li-home"><a href="./home.html"><i class="fas fa-house-user"></i>HOME</a></li>
+                    <li id="li-docente"><a href="./copodocente.html"><i class="fas fa-chalkboard-teacher"></i>Docente</a></li>
+                    <li id="li-crit"><a id="cr" href="./criterios.html"><i class="fas fa-book-open"></i>Metodologia</a></li>
+                    <li id="li-cono"><a href="./conograma.html"><i class="fas fa-bars"></i>Cronograma</a></li>
+                    <li id="li-cont"><a id="co" href="contatos.html"><i class="far fa-envelope"></i>Contatos</a></li>
+                </ul>
+            </div>
+        </nav>         
+        <!-- Div que engloba o header e section -->
+        <div id="div-header-section">
+            <header>
+                <div id="img-header">
+                    <img id="img-Ft" src="./imgs/intelige.png" alt="img-intelige">
+                </div>
+            </header>
+
+            <section>
+        
+            <div id="sectionCriterios">
+                <!-- Caixa que engloba caixa Metodologia e Bibliografia -->
+                <div class="grid-caixas">
+                    <div class="caixas" id="c1">
+                        <p class="p-font16 titulo"><strong>Metodologia de ensino <i class="fas fa-check"></i></strong></p>
+                        <br>
+                        <ul>
+                            <li>*Aulas em vídeo sobre cada tópico;</li>
+                            <li>*Plantões para dúvidas no horário de aula(via Google Meet);</li>
+                            <li>*Exercícios práticos individuais de fixação;</li>
+                            <li>*Projeto em Grupo:</li>
+                        </ul>
+                            <p>Com 03 avaliações parciais;
+                            <br>Notas individuais baseadas na contribuição de cada aluno em cada etapa.</p>
+                    </div>
+                </div>
+
+                <div class="grid-caixas">
+                    <div class="caixas" id="c2">
+                        <p class="p-font16 titulo"><b>Bibliografia recomendada:<i class="fas fa-book"></i></b></p>
+                        <br>
+                        <ul>
+                            <li>*Web Tutorials: https://www.w3schools.com/ </li>
+                            <li>*Mozilla Developer Network: http://developer.mozilla.org/</li>
+                            <li>*Silva, M.S.“Construindo sites com CSS e (X)HTML Sites controlados por folhas de estilo em cascata”. Novatec, 2008.</li>
+                            <li>*Silva, M.S. “JavaScript: Guia do Programador”. Novatec, 2010</li>
+                            <li>*Niederauer, J. “Desenvolvendo Websites com PHP”, 2ª ed. Novatec, 2011.</li>
+                            <li>*Dall’oglio, P. “PHP: Programando com Orientação a Objetos”, 2a ed. Novatec, 2009.</li>
+                            <li>*Loudon, K. “Desenvolvimento de Grandes Aplicações Web”, O’Reilly/Novatec, 2010</li>
+                            <li>*Gray, N. “Web Server Programming”, John Wiley & Sons, 2003.</li>    
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="grid-caixas">
+                    <div class="caixas" id="c3">
+                        <p class="p-font16 titulo"><b>Critérios de Avaliação <i class="fas fa-list-ol"></i></b></p>
+                        <br>
+                        <ul>
+                            <li>P1–Nota da primeira avaliação parcial do Projeto;</li>
+                            <li>P2–Nota da segunda avaliação parcial do Projeto;</li>
+                            <li>P3–Nota da terceira avaliação parcial do Projeto;</li>
+                            <li>P–Nota final do Projeto;</li>
+                            <li>T–Média dos exercícios práticos de fixação desenvolvidos ao longo do semestre;</li>
+                            <li>M–Média do aluno;</li>
+                            <li>M<sub>Final</sub>–Média final no semestre;</li>
+                            <li>E–Nota do Exame;</li>
+                        </ul>
+                        <p>A nota final do projeto será dada por: 𝑃= 0,25∙𝑃1 + 0,5∙𝑃2 + 0,25*𝑃3</p>
+                        <p>A média do aluno será dada por: 𝑀= 0,8*𝑃+0,2*𝑇;</p>
+                        <p>Se 𝑀 &lt; 2,5 ou 𝑀 &ge; 6,0: 𝑀<sub>Final</sub>=𝑀;</p>
+                        <p>Caso contrário: 𝑀<sub>Final</sub>= mínimo( 5,0; 0,6*𝑀 + 0,4*𝐸 )</p>
+                    </div>
+                </div>
+
+                <div class="grid-caixas">
+                    <div class="caixas" id="c4">
+                        <p class="p-font16 titulo"><b>Observações<i class="fab fa-sistrix"></i></b></p>    
+                        <br>
+                        <p><b>Não serãocorrigidas</b> atividades entregues após o prazo estabelecido;</p>
+                        <p>Caso sejam detectadas quaisquer formasde fraudenas atividades,<b> todos</b> os alunos envolvidos ficarão com média 0,0 <b>na disciplina.</b></p>
+                        <p>Só poderão fazer o Examealunos com 𝑀 &ge; 2,5.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            </section> 
+        </div>  
+
+        <footer>
+            <!-- div para aplicar css grid -->
+            <div id="div-footer">
+                <div id="d1">
+                    <img src="./imgs/icons/facebook.png" alt="iconface">
+                    <a href="https://www.facebook.com/ft.unicamp/?ref=br_rs" target="_blank"> Página Oficial da FT</a>
+                </div>
+            
+                <div id="d2">                    
+                    <img src="./imgs/icons/iconlogoFT.png" alt="iconFt">
+                    <a href="https://www.ft.unicamp.br/" target="_blank"> Faculdade de Tecnologia</a>
+                </div>
+                                
+                <div id="d3">                    
+                    <img src="./imgs/icons/iconlogoUnicamp.png" alt="iconLogoUnic">
+                    <a href="http://www.unicamp.br/unicamp/" target="_blank"> Universidade Estadual de Campinas</a>
+                </div>
+
+                <div id="d4"><img src="./imgs/icons/home.png" alt="iconEnd"> R. Paschoal Marmo - Jardim Piratininga <br> Limeira - SP, 1888</div>
+                
+                <div id="d5"><img src="./imgs/icons/fone.png" alt="iconTel"> (19) 3521-2121</div>            
+                
+                <div id="d6"><img src="./imgs/icons/email.png" alt="iconEmail"> portal@unicamp.br</div>
+                
+                <div id="d7"><p class="p-font12">Copyright@ 2020 - Todos os direitos reservados</p></div>
+            
+            </div>
+        </footer>
+    </div>       
+</body>
+</html>

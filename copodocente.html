@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação WEB</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/corpoDoc.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div id="corpo-pagina">
+        <!-- Navegação -->
+        <nav>       
+            <!-- Logo Unicamp -->
+            <div id="div-logoUnicamp">
+                <img src="./imgs/UNICAMP_logo.svg.png" id="logoUnicamp" alt="logo-unicamp">
+            </div>
+            <!-- Menu -->
+            <div id="menu">
+                <ul>
+                    <li id="li-home"><a href="./home.html"><i class="fas fa-house-user"></i>HOME</a></li>
+                    <li id="li-docente"><a href="./copodocente.html"><i class="fas fa-chalkboard-teacher"></i>Docente</a></li>
+                    <li id="li-crit"><a href="./criterios.html"><i class="fas fa-book-open"></i>Metodologia</a></li>
+                    <li id="li-cono"><a href="./conograma.html"><i class="fas fa-bars"></i>Cronograma</a></li>
+                    <li id="li-cont"><a href="contatos.html">   <i class="far fa-envelope"></i>Contatos</a></li>
+                </ul>
+            </div>
+        </nav>         
+        <!-- Div que engloba o header e section -->
+        <div id="div-header-section">
+            <header>
+                <div id="img-header">
+                    <img src="./imgs/docente.png" alt="imgDocente">
+                </div>
+            </header>
+
+            <section>
+                <div id="sectionDocente">
+                    <div id="caixa-sobreprofessor">
+                        <!-- Engloba a imagem do professor e o título -->
+                        <div id="img-text-tituloprofessor">
+                            <div id="imgprofessor">
+                                <img src="./imgs/imgProfessor.jpg" alt="ImgProfessor" width="150">
+                            </div>
+                            
+                            <div id="titulo-professor">
+                                <h2>Guilherme Palermo Coelho</h2>
+                                <p class="p-font16"><b>Cursos Ministrados:</b></p>
+                                <p>-Tecnologia em Análise e Desenvolvimento de Sistemas</p>
+                                <p>-Sistemas de Informação</p>
+                            </div>
+                        </div>
+                        <p class="p-font12" id="descricao">Possui doutorado em Engenharia Elétrica (2011) pela Universidade Estadual de Campinas (Unicamp). Atualmente é Professor Doutor MS3.1 na Faculdade de Tecnologia (FT) / Universidade Estadual de Campinas (Unicamp), onde realiza atividades de ensino e desenvolve pesquisas nas linhas de metaheurísticas para otimização, mineração de dados e aprendizado de máquina. Tem experiência na área de Inteligência Computacional, atuando principalmente nos seguintes temas: computação bio-inspirada, otimização (mono e multi-objetivo) e redes neurais artificiais, ensembles e agrupamento de dados.</p>
+                    </div>
+                             
+                    <div id="iframe">
+                        <p class="p-font16"><b>Currículo Lattes:</b></p>
+                        <iframe src="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4167335D0"></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>  
+            
+        <footer>
+            <!-- div para aplicar css grid -->
+            <div id="div-footer">
+                <div id="d1">
+                    <img src="./imgs/icons/facebook.png" alt="iconface">
+                    <a href="https://www.facebook.com/ft.unicamp/?ref=br_rs" target="_blank"> Página Oficial da FT</a>
+                </div>
+            
+                <div id="d2">                    
+                    <img src="./imgs/icons/iconlogoFT.png" alt="iconFt">
+                    <a href="https://www.ft.unicamp.br/" target="_blank"> Faculdade de Tecnologia</a>
+                </div>
+                                
+                <div id="d3">                    
+                    <img src="./imgs/icons/iconlogoUnicamp.png" alt="iconLogoUnic">
+                    <a href="http://www.unicamp.br/unicamp/" target="_blank"> Universidade Estadual de Campinas</a>
+                </div>
+
+                <div id="d4"><img src="./imgs/icons/home.png" alt="iconEnd"> R. Paschoal Marmo - Jardim Piratininga <br> Limeira - SP, 1888</div>
+                
+                <div id="d5"><img src="./imgs/icons/fone.png" alt="iconTel"> (19) 3521-2121</div>            
+                
+                <div id="d6"><img src="./imgs/icons/email.png" alt="iconEmail"> portal@unicamp.br</div>
+                
+                <div id="d7"><p class="p-font12">Copyright@ 2020 - Todos os direitos reservados</p></div>
+            
+            </div>
+        </footer>
+    </div>   
+</body>
+</html>

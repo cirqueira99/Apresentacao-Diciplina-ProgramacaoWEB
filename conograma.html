@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação WEB</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/conograma.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div id="corpo-pagina">
+        <!-- Navegação -->
+        <nav>       
+            <!-- Logo Unicamp -->
+            <div id="div-logoUnicamp">
+                <img src="./imgs/UNICAMP_logo.svg.png" id="logoUnicamp" alt="logo-unicamp">
+            </div>
+            <!-- Menu -->
+            <div id="menu">
+                <ul>
+                    <li id="li-home"><a href="./home.html"><i class="fas fa-house-user"></i>HOME</a></li>
+                    <li id="li-corpo"><a href="./copodocente.html"><i class="fas fa-chalkboard-teacher"></i>Docente</a></li>
+                    <li id="li-crit"><a href="./criterios.html"><i class="fas fa-book-open"></i>Metodologia</a></li>
+                    <li id="li-cono"><a href="./conograma.html"><i class="fas fa-bars"></i>Cronograma</a></li>
+                    <li id="li-cont"><a href="contatos.html">   <i class="far fa-envelope"></i>Contatos</a></li>
+                </ul>
+            </div>
+        </nav>         
+        <!-- Div que engloba o header e section -->
+        <div id="div-header-section">
+            <header>                
+                <!-- Div que englobs texto e imagem-->
+                <div id="text-img">
+                    <div id="img-iconHeader">
+                        <img id="img-Ft" src="./imgs/icons/calendario_icon.png" alt="icon-cronog">
+                    </div>
+                    <div id="text">
+                        <h2>Dia/Horáriodas aulas:</h2>
+                        <p>Às terças-feiras, 19:00 –23:00(4aulas)</p>
+                        <br>
+                        <h2>Carga Horária:</h2>    
+                        <p>60 horas</p>
+                    </div>                    
+                </div>
+            </header>
+
+            <section>
+                <div id="sectionConograma">
+                    <h3>Cronograma:</h3>
+                    <!-- Tabela de cronograma da aula  -->
+                    <table>  
+                        <thead>
+                            <tr>
+                                <th id="s">SEMANA</th>
+                                <th>DIA</th>
+                                <th>TÓPICO</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>22-set</td>
+                                <td>
+                                    <p><b>Unidade 0: </b></p>
+                                    <ul>
+                                        <li>Conteúdo: instruções gerais sobre a disciplina.</li>
+                                        <li>Objetivos:  descrever  como será  o  funcionamento  da  disciplina  ao  longo  do semestre,  mais especificamente  as  aulas  remotas,  os  critérios  de  avaliação  e  os plantões de dúvidas (monitorias).</li>
+                                    </ul>
+                                    <p><b>Unidade 1: </b></p>
+                                    <ul>
+                                        <li>Conteúdo: visão  geral  sobre  o  funcionamento  da  web,  com  foco  nas  interações navegador-servidor, e contextualização da Programação para Web.</li>
+                                        <li>Objetivos: descrever em linhas gerais os passos executados a cada requisição feita por um navegador a um servidor, interpretar uma mensagem HTTP e apresentar o que  será  discutido  nesse  semestre  dentro  do  contexto  de  Programação  para  a Web.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>29-set</td>
+                                <td>
+                                    <p><b>Unidade 2:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: Hypertext Markup Language(HTML)e estrutura de documentosHTML (tags, declarações DOCTYPE, elementos HTML e atributos de elementos HTML).</li>
+                                        <li>Objetivos: entender  o  que  é  HTML  e  construir  documentos  que  contenham  os elementos obrigatóriosdefinidos no padrão</li>
+                                    </ul>
+                                    <p><b>Unidade 3:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: exemplos de elementos HTML (parágrafos, títulos, imagens, hyperlinks, tabelas, listas e iFrames).</li>
+                                        <li>Objetivos: construir documentos HTML que utilizem os elementos mais comuns.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td></td>
+                                <td>
+                                    <p><b>Unidade 4:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: o elemento HEADde HTML.</li>
+                                        <li>Objetivos: construir documentos HTML que possuam o elemento obrigatório HEADem sua estrutura.</li>
+                                    </ul>
+                                    <p><b>Unidade 5:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: layoutsvia HTML.</li>
+                                        <li>Objetivos: estruturar o conteúdo de documentos HTML em layoutsbem definidos.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>13-out</td>
+                                <td>
+                                    <p><b>Unidade 6:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: Cascade Style Sheets (CSS): definições, sintaxe e formas de utilização.</li>
+                                        <li>Objetivos: construir  folhas  de  estilo  que  definam  a  aparência  de  um  documento HTML e  compreender a formatação  que será aplicada a um elemento HTML por regras CSS já criadas.</li>
+                                    </ul>
+                                    <p><b>Unidade 7:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: Cascade Style Sheets (CSS): propriedades de fundo de tela,de textoe de fonte.</li>
+                                        <li>Objetivos: criar  folhas  de  estilo  que  explorem  as  propriedades  de  fundo  de  tela, texto e de fonte de elementos HTML.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>20-out</td>
+                                <td>
+                                    <p><b>Unidade 8:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: Cascade  Style  Sheets (CSS):  propriedades  abreviadas  e  o  modelo  de caixas (box model)</li>
+                                        <li>Objetivos: definição de layoutsde páginas explorando o modelo de caixas de CSS</li>
+                                    </ul>
+                                    <p><b>Nesta aulanão haverá atividades práticas defixação. O tempo deverá ser usado para prosseguimento do desenvolvimentoda primeira entrega parcial do Projeto Final..</b></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>27-out</td>
+                                <td>
+                                    <p><b>Aula para conclusão do desenvolvimento da Parte 1 do Projeto Final</b></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>03-nov</td>
+                                <td>
+                                    <p><b>Unidade 9:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: programação   no Front-endcom   JavaScript:   definições,   sintaxe, instruçõese o objeto DOM.</li>
+                                        <li>Objetivos: escrever programas básicos, em JavaScript, para serem executados em navegadores.</li>
+                                    </ul>
+                                    <p><b>Unidade 10:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: detecção e reação a eventosvia JavaScript.</li>
+                                        <li>Objetivos: escrever programas, em JavaScripte que são executados no navegador, que reajam a eventos disparados pelo usuário.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>10-nov</td>
+                                <td>
+                                    <p><b>Unidade 11:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: manipulação de formulários HTML via JavaScript.</li>
+                                        <li>Objetivos: escrever programas, em JavaScripte que são executados no navegador, que manipulem dados fornecidos pelo usuário via formulários HTML.</li>
+                                    </ul>
+                                    <p><b>Unidade 12:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: orientação a objetos emJavaScript.</li>
+                                        <li>Objetivos: escrever programas, em JavaScripte que são executados no navegador, seguindo o paradigma de orientação a objetos.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>17-nov</td>
+                                <td>
+                                    <p><b>Aulapara desenvolvimentoda Parte 2 do Projeto Final.</b></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>24-nov</td>
+                                <td>
+                                    <p><b>Aula para conclusão do desenvolvimento da Parte 2 do Projeto Final.</b></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>01-dez</td>
+                                <td>
+                                    <p><b>Unidade 13:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: programação  no Back-endcom  PHP:  infraestrutura  necessária  e aspectos gerais da linguagem</li>
+                                        <li>Objetivos: escrever programas simples, em PHP, que são executados no servidor.</li>
+                                    </ul>
+                                    <p><b>Unidade 14:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: aspectos  específicos  da  linguagem  PHP:  operadores, estruturas  de controle e funções.</li>
+                                        <li>Objetivos: escrever programas em PHP para serem executados no servidor.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>08-dez</td>
+                                <td>
+                                    <p><b>Unidade 15:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: PHP e formulários HTML, Server Side Includes.</li>
+                                        <li>Objetivos: escrever  programas,  em  PHP,  que   recebam  e   manipulem  dados enviados pelo usuário, do frontend, e a partir de formulários HTML.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>15-dez</td>
+                                <td>
+                                    <p><b>Unidade 16:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: orientação a objetos em PHP.</li>
+                                        <li>Objetivos: escrever  programas,  em  PHP,  seguindo  o  paradigma  de orientação  a objetos.</li>
+                                    </ul>
+                                    <p><b>Unidade 17:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: acesso a Bancos de Dados em PHP via PHP Data Objects(PDO)</li>
+                                        <li>Objetivos: escrever programas, em PHP, que manipulem bancos de dados.</li>
+                                    </ul>
+                                    <p><b>Nesta aula não haverá atividades práticas de fixação. O tempo deverá ser usado para desenvolvimentodo Projeto Final.</b></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>22-dez</td>
+                                <td>
+                                    <p><b>Unidade 18:</b></p>
+                                    <ul>
+                                        <li>Conteúdo: Cookiese sessões em PHP.</li>
+                                        <li>Objetivos: escrever programas, em PHP, que mantenham sessões abertasdurante a navegação de um mesmo usuário e permitam o fluxo de informações entre as páginas.</li>
+                                    </ul>
+                                    <p><b>Nesta aula não haverá atividades práticas de fixação. O tempo deverá ser usado para desenvolvimentodo Projeto Final.</b></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>29-dez</td>
+                                <td>
+                                    <p>Não haverá aulas.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>05-jan</td>
+                                <td>
+                                    <p>Aula para conclusão do desenvolvimento da Parte 3 do Projeto Final</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>12-jan</td>
+                                <td>
+                                    <p>Não haverá aulas.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>19-jan</td>
+                                <td>
+                                    <p>Não haverá aulas.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>26-jan</td>
+                                <td>
+                                    <p><b>Exame Final.</b></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+        </div>  
+                    
+        <footer>
+            <!-- div para aplicar css grid -->
+            <div id="div-footer">
+                <div id="d1">
+                    <img src="./imgs/icons/facebook.png" alt="iconface">
+                    <a href="https://www.facebook.com/ft.unicamp/?ref=br_rs" target="_blank"> Página Oficial da FT</a>
+                </div>
+            
+                <div id="d2">                    
+                    <img src="./imgs/icons/iconlogoFT.png" alt="iconFt">
+                    <a href="https://www.ft.unicamp.br/" target="_blank"> Faculdade de Tecnologia</a>
+                </div>
+                                
+                <div id="d3">                    
+                    <img src="./imgs/icons/iconlogoUnicamp.png" alt="iconLogoUnic">
+                    <a href="http://www.unicamp.br/unicamp/" target="_blank"> Universidade Estadual de Campinas</a>
+                </div>
+
+                <div id="d4"><img src="./imgs/icons/home.png" alt="iconEnd"> R. Paschoal Marmo - Jardim Piratininga <br> Limeira - SP, 1888</div>
+                
+                <div id="d5"><img src="./imgs/icons/fone.png" alt="iconTel"> (19) 3521-2121</div>            
+                
+                <div id="d6"><img src="./imgs/icons/email.png" alt="iconEmail"> portal@unicamp.br</div>
+                
+                <div id="d7"><p class="p-font12">Copyright@ 2020 - Todos os direitos reservados</p></div>
+            
+            </div>
+        </footer>
+    </div>   
+
+</body>
+</html>
